@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "personal-vault.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/personal-vault.html"
+    },
+    {
+      "src": "/index.html",
+      "dest": "/personal-vault.html"
+    }
+  ]
+}
